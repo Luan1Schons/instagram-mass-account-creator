@@ -184,7 +184,8 @@ while True:
         sleep(1)
         try:
                 not_valid = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div[1]/div[2]/form/div/div[4]/div')
-                if not_valid.text == 'O código não é valido.' :
+                print(not_valid.text)
+                if not_valid.text == "That code isn't valid. You can request a new one.":
                 
                         sleep(1)
                         driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div[1]/div[1]/div[2]/div/button').click()

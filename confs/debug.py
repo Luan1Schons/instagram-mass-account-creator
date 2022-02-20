@@ -1,4 +1,4 @@
 class DEBUG():
 
-    DEBUG = False
+    DEBUG = True
     DEBUG_FIREFOX_HEADLESS = True
