@@ -214,7 +214,7 @@ while True:
                 filepath = "./accounts.txt"
                 with open('accounts.txt', 'a') as file:
                         file.write('\n')
-                        file.write("\n================================" + name + "\n" + passwd)
+                        file.write("\n================================\n" + name + "\n" + passwd)
 
                 print(Fore.GREEN + "Conta de usuário criada com sucesso")
 
