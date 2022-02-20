@@ -200,25 +200,30 @@ while True:
         except Exception as e:
                 print(e)
 
+        sleep(10)
         try:
                 error = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div[1]/div[2]/form/div/div[4]/div')
                 print(Fore.RED + "ERRO: " + error.text)
+                exit()
         except Exception as e:
-                print(Fore.LIGHTWHITE_EX + "========================================================")
-                print(Fore.LIGHTWHITE_EX + "Informações do usuário:")
-                print(Fore.LIGHTWHITE_EX + "========================================================")
-                print(Fore.LIGHTWHITE_EX + 'Nome completo: ' + completeName)
-                print(Fore.LIGHTWHITE_EX + 'Usuário: ' + name)
-                print(Fore.LIGHTWHITE_EX + 'Email: ' + fake_email)
-                print(Fore.LIGHTWHITE_EX + 'Senha gerada: ' + passwd)
-                print(Fore.LIGHTWHITE_EX + "========================================================")
+                print(e)
 
-                filepath = "./accounts.txt"
-                with open('accounts.txt', 'a') as file:
-                        file.write('\n')
-                        file.write("\n================================\n" + name + "\n" + passwd + "\n" + fake_email)
+s
+        print(Fore.LIGHTWHITE_EX + "========================================================")
+        print(Fore.LIGHTWHITE_EX + "Informações do usuário:")
+        print(Fore.LIGHTWHITE_EX + "========================================================")
+        print(Fore.LIGHTWHITE_EX + 'Nome completo: ' + completeName)
+        print(Fore.LIGHTWHITE_EX + 'Usuário: ' + name)
+        print(Fore.LIGHTWHITE_EX + 'Email: ' + fake_email)
+        print(Fore.LIGHTWHITE_EX + 'Senha gerada: ' + passwd)
+        print(Fore.LIGHTWHITE_EX + "========================================================")
 
-                print(Fore.GREEN + "Conta de usuário criada com sucesso")
+        filepath = "./accounts.txt"
+        with open('accounts.txt', 'a') as file:
+                file.write('\n')
+                file.write("\n================================\n" + name + "\n" + passwd + "\n" + fake_email)
 
-        sleep(20)
-        driver.close()
+        print(Fore.GREEN + "Conta de usuário criada com sucesso")
+
+sleep(60)
+driver.close()
