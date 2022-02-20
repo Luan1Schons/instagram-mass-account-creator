@@ -64,3 +64,14 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1645382448041	Marionette	INFO	Listening on port 52953
 1645382448229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1645382448234	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:52922","sslProxy":"127.0.0.1:52922"}
+1645386948383	geckodriver	INFO	Listening on 127.0.0.1:55287
+1645386951413	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofile1VPBQO"
+*** You are running in headless mode.
+1645386951982	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofile1VPBQO\\search.json.mozlz4", (void 0)))
+1645386953711	Marionette	INFO	Listening on port 55298
+1645386954096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645386954100	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55286","sslProxy":"127.0.0.1:55286"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1645387073281	geckodriver	INFO	Listening on 127.0.0.1:55807
