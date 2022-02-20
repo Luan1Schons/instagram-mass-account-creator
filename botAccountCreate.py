@@ -208,7 +208,6 @@ while True:
         except Exception as e:
                 print(e)
 
-s
         print(Fore.LIGHTWHITE_EX + "========================================================")
         print(Fore.LIGHTWHITE_EX + "Informações do usuário:")
         print(Fore.LIGHTWHITE_EX + "========================================================")
