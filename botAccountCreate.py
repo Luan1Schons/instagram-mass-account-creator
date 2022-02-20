@@ -184,7 +184,7 @@ while True:
         sleep(1)
         try:
                 not_valid = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div[1]/div[2]/form/div/div[4]/div')
-                print(not_valid.text)
+
                 if not_valid.text == "That code isn't valid. You can request a new one.":
                 
                         sleep(1)
@@ -196,7 +196,7 @@ while True:
                         confInput.send_keys(code, Keys.ENTER)
 
         except Exception as e:
-                print(Fore.LIGHTWHITE_EX + e)
+                print(e)
 
         try:
                 error = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div[1]/div[2]/form/div/div[4]/div')
