@@ -101,14 +101,14 @@ while True:
 
         sleep(5)
         name = account.username()
-
+        completeName = account.generatingName()
         # fill email
         email_field = driver.find_element_by_name('emailOrPhone')
         fake_email = mail_address
         email_field.send_keys(fake_email)
         # fill full
         fullname_field = driver.find_element_by_name('fullName')
-        fullname_field.send_keys(account.generatingName())
+        fullname_field.send_keys(completeName)
         #fill username
         username_field = driver.find_element_by_name('username')
         username_field.send_keys(name)
@@ -205,7 +205,7 @@ while True:
                 print(Fore.LIGHTWHITE_EX + "========================================================")
                 print(Fore.LIGHTWHITE_EX + "Informações do usuário:")
                 print(Fore.LIGHTWHITE_EX + "========================================================")
-                print(Fore.LIGHTWHITE_EX + 'Nome completo: ' + account.generatingName())
+                print(Fore.LIGHTWHITE_EX + 'Nome completo: ' + completeName)
                 print(Fore.LIGHTWHITE_EX + 'Usuário: ' + name)
                 print(Fore.LIGHTWHITE_EX + 'Email: ' + fake_email)
                 print(Fore.LIGHTWHITE_EX + 'Senha gerada: ' + passwd)
@@ -218,4 +218,5 @@ while True:
 
                 print(Fore.GREEN + "Conta de usuário criada com sucesso")
 
+        sleep(20)
         driver.close()
