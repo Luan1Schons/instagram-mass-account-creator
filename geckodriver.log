@@ -1,0 +1,66 @@
+1645381113291	geckodriver	INFO	Listening on 127.0.0.1:58501
+1645381116312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileO0eSK3"
+*** You are running in headless mode.
+1645381116887	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileO0eSK3\\search.json.mozlz4", (void 0)))
+1645381118873	Marionette	INFO	Listening on port 58537
+1645381119035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645381119043	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:58500","sslProxy":"127.0.0.1:58500"}
+1645381197526	geckodriver	INFO	Listening on 127.0.0.1:59414
+1645381200581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilers7Dhq"
+*** You are running in headless mode.
+1645381201106	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilers7Dhq\\search.json.mozlz4", (void 0)))
+1645381202958	Marionette	INFO	Listening on port 59456
+1645381203273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645381203277	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:59413","sslProxy":"127.0.0.1:59413"}
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645381381861	geckodriver	INFO	Listening on 127.0.0.1:61536
+1645381384914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilesV4Jli"
+*** You are running in headless mode.
+1645381385608	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilesV4Jli\\search.json.mozlz4", (void 0)))
+1645381388038	Marionette	INFO	Listening on port 61568
+1645381388124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645381388130	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:61535","sslProxy":"127.0.0.1:61535"}
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645381500444	geckodriver	INFO	Listening on 127.0.0.1:63038
+1645381503513	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilelXFpJ3"
+*** You are running in headless mode.
+1645381504089	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilelXFpJ3\\search.json.mozlz4", (void 0)))
+1645381506124	Marionette	INFO	Listening on port 63076
+1645381506206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645381506211	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63037","sslProxy":"127.0.0.1:63037"}
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645382178769	geckodriver	INFO	Listening on 127.0.0.1:50903
+1645382181819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilesgmtFI"
+*** You are running in headless mode.
+1645382182535	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilesgmtFI\\search.json.mozlz4", (void 0)))
+1645382185271	Marionette	INFO	Listening on port 50939
+1645382185560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645382185567	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:50902","sslProxy":"127.0.0.1:50902"}
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645382443099	geckodriver	INFO	Listening on 127.0.0.1:52923
+1645382446148	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofile2Cmi76"
+*** You are running in headless mode.
+1645382446610	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofile2Cmi76\\search.json.mozlz4", (void 0)))
+1645382448041	Marionette	INFO	Listening on port 52953
+1645382448229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645382448234	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:52922","sslProxy":"127.0.0.1:52922"}
