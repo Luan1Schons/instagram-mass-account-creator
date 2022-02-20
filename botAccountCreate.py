@@ -93,6 +93,8 @@ while True:
         # recovery code string
         reco_key = str(address_data['recover_key'])
 
+        print("Chave para recuperar email:" + reco_key)
+
         # accepting cookies window
         try:
                 cookie = driver.find_element_by_xpath('/html/body/div[4]/div/div/button[1]').click()
