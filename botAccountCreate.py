@@ -1,7 +1,8 @@
 # coding=utf-8
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from colorama import Fore
@@ -13,6 +14,8 @@ from confs.debug import DEBUG
 import accountInfoGenerator as account
 import argparse
 import requests
+import os
+import createExtensionChrome as ChromeExtension
 
 # Security
 if(DEBUG.DEBUG == False):
@@ -33,6 +36,7 @@ while True:
         parser = argparse.ArgumentParser()
         group = parser.add_mutually_exclusive_group(required=True)
         group.add_argument("--firefox", action="store_true", help="Use Firefox - geckodriver")
+        group.add_argument("--chrome", action="store_true", help="Use Firefox - geckodriver")
 
         args = parser.parse_args()
         ua = UserAgent()
@@ -40,12 +44,30 @@ while True:
 
         # for firefox driver : 
         if args.firefox:
-                options = Options()
+                options = FirefoxOptions()
                 options.headless = DEBUG.DEBUG_FIREFOX_HEADLESS
                 profile = webdriver.FirefoxProfile()
                 profile.set_preference("general.useragent.override", userAgent)
                 driver = webdriver.Firefox(executable_path=r"./geckodriver.exe", seleniumwire_options=options_proxy, options=options)
 
+        # for firefox driver :
+        if args.chrome:
+
+                """" CREATE EXTENSION ON GOOGLE CHROME ENVIRONMENT """""
+
+                try:
+                        ChromeExtension.create_proxy_extension(PROXY_INFO.PROXY_EXTENSION)
+                except Exception as e:
+                        print(e)
+                        exit()
+
+                executable_path = "./chromedriver.exe"
+                os.environ["webdriver.chrome.driver"] = executable_path
+                options = ChromeOptions()
+                options.headless = DEBUG.DEBUG_CHROME_HEADLESS
+                options.add_argument(f'user-agent={userAgent}')
+                options.add_extension('./assets/chrome_extensions/proxy_auth.zip')
+                driver = webdriver.Chrome(executable_path=r"./chromedriver.exe", seleniumwire_options=options_proxy, options=options)
 
         # DEBUG get proxy use confirmation
         if(DEBUG.DEBUG == True):
