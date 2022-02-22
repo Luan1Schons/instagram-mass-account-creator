@@ -13,7 +13,7 @@ def create_proxy_extension(proxy):
         {
             "version": "1.0.0",
             "manifest_version": 2,
-            "name": "Chrome Proxy Extension GramLikes",
+            "name": "Proxy GramLikes",
             "permissions": [
                 "proxy",
                 "tabs",
