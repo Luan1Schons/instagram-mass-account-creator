@@ -66,9 +66,9 @@ while True:
                 options = ChromeOptions()
                 options.headless = DEBUG.DEBUG_CHROME_HEADLESS
                 options.add_argument(f'user-agent={userAgent}')
-                options.addArguments("--disable-gpu");
-                options.addArguments("--disable-dev-shm-usage");
-                options.addArguments("--no-sandbox");
+                options.add_argument("--disable-gpu")
+                options.add_argument("--disable-dev-shm-usage")
+                options.add_argument("--no-sandbox")
                 options.add_extension('./assets/chrome_extensions/proxy_auth.zip')
                 driver = webdriver.Chrome(executable_path=r"./chromedriver.exe", seleniumwire_options=options_proxy, options=options)
 
