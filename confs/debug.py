@@ -1,5 +1,0 @@
-class DEBUG():
-
-    DEBUG = True
-    DEBUG_FIREFOX_HEADLESS = False
-    DEBUG_CHROME_HEADLESS = False
