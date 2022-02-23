@@ -74,4 +74,559 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1645386954096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1645386954100	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55286","sslProxy":"127.0.0.1:55286"}
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-1645387073281	geckodriver	INFO	Listening on 127.0.0.1:55807
+Exiting due to channel error.
+Exiting due to channel error.
+45387601602	geckodriver	INFO	Listening on 127.0.0.1:57665
+1645387604654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileZDbQnq"
+*** You are running in headless mode.
+1645387605096	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileZDbQnq\\search.json.mozlz4", (void 0)))
+1645387606919	Marionette	INFO	Listening on port 57688
+1645387607338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645387607343	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:57664","sslProxy":"127.0.0.1:57664"}
+1645387674447	geckodriver	INFO	Listening on 127.0.0.1:58172
+1645387677462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileFce3BI"
+*** You are running in headless mode.
+1645387677803	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileFce3BI\\search.json.mozlz4", (void 0)))
+1645387679271	Marionette	INFO	Listening on port 58201
+1645387679526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645387679534	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:58171","sslProxy":"127.0.0.1:58171"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645387808259	Marionette	INFO	Stopped listening on port 58201
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645387808811	geckodriver	INFO	Listening on 127.0.0.1:59203
+1645387811823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileNTbujs"
+*** You are running in headless mode.
+1645387812157	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileNTbujs\\search.json.mozlz4", (void 0)))
+1645387813674	Marionette	INFO	Listening on port 59228
+1645387813893	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645387813898	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:59202","sslProxy":"127.0.0.1:59202"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1645387836134	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645388319606	geckodriver	INFO	Listening on 127.0.0.1:62938
+1645388322628	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileHEhnK2"
+*** You are running in headless mode.
+1645388323243	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileHEhnK2\\search.json.mozlz4", (void 0)))
+1645388325824	Marionette	INFO	Listening on port 62958
+1645388326341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645388326346	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62937","sslProxy":"127.0.0.1:62937"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1645388372394	geckodriver	INFO	Listening on 127.0.0.1:63639
+1645388375428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofile1h6AuP"
+1645388375933	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofile1h6AuP\\search.json.mozlz4", (void 0)))
+1645388379325	Marionette	INFO	Listening on port 63676
+1645388379606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645388379609	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63638","sslProxy":"127.0.0.1:63638"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645388513133	Marionette	INFO	Stopped listening on port 63676
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1645388514002	geckodriver	INFO	Listening on 127.0.0.1:65310
+1645388517013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileHzj7vN"
+1645388517360	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileHzj7vN\\search.json.mozlz4", (void 0)))
+1645388519915	Marionette	INFO	Listening on port 65341
+1645388520196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645388520200	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:65309","sslProxy":"127.0.0.1:65309"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://afbc5b1b3c3adc83f51292ef140932fc.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html, line 21: ReferenceError: osdlfm is not defined
+JavaScript error: https://afbc5b1b3c3adc83f51292ef140932fc.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html, line 21: ReferenceError: osdlfm is not defined
+[Parent 27000, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645388662527	Marionette	INFO	Stopped listening on port 65341
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645388663115	geckodriver	INFO	Listening on 127.0.0.1:50492
+1645388666149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofiledFXlx0"
+1645388666700	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofiledFXlx0\\search.json.mozlz4", (void 0)))
+1645388670098	Marionette	INFO	Listening on port 50530
+1645388670358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645388670365	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:50491","sslProxy":"127.0.0.1:50491"}
+1645389089352	geckodriver	INFO	Listening on 127.0.0.1:53250
+1645389092363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofile6zKcQE"
+1645389092691	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofile6zKcQE\\search.json.mozlz4", (void 0)))
+1645389095461	Marionette	INFO	Listening on port 53282
+1645389095562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645389095566	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:53249","sslProxy":"127.0.0.1:53249"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645389162978	Marionette	INFO	Stopped listening on port 53281645389164159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilercZWpS"
+1645389164471	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilercZWpS\\search.json.mozlz4", (void 0)))
+1645389167000	Marionette	INFO	Listening on port 53982
+1645389167325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645389167327	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:53940","sslProxy":"127.0.0.1:53940"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://95cce14cd2dccb17ad967ddc777d5569.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html, line 21: ReferenceError: osdlfm is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645389259406	Marionette	INFO	Stopped listening on port 53982
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+uans\\AppData\\Local\\Temp\\rust_mozprofilejtNYqo"
+1645389259577	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilejtNYqo\\search.json.mozlz4", (void 0)))
+1645389262386	Marionette	INFO	Listening on port 54849
+1645389262804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645389262806	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:54817","sslProxy":"127.0.0.1:54817"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1645389400986	Marionette	INFO	Stopped listening on port 54849
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645389572964	geckodriver	INFO	Listening on 127.0.0.1:56581
+1645389576007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilerZJa14"
+1645389576503	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilerZJa14\\search.json.mozlz4", (void 0)))
+1645389579746	Marionette	INFO	Listening on port 56595
+1645389580198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645389580203	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:56580","sslProxy":"127.0.0.1:56580"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645389737095	Marionette	INFO	Stopped listening on port 56595
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645389739731	geckodriver	INFO	Listening on 127.0.0.1:57190
+1645389742778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileGgSeJK"
+1645389743126	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileGgSeJK\\search.json.mozlz4", (void 0)))
+1645389745894	Marionette	INFO	Listening on port 57203
+1645389745964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645389745967	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:57189","sslProxy":"127.0.0.1:57189"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 19304, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645389900877	Marionette	INFO	Stopped listening on port 57203
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645389901946	geckodriver	INFO	Listening on 127.0.0.1:57813
+1645389936888	geckodriver	INFO	Listening on 127.0.0.1:57883
+1645389939905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilepxfOdO"
+1645389940243	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilepxfOdO\\search.json.mozlz4", (void 0)))
+1645389943000	Marionette	INFO	Listening on port 57896
+1645389943093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645389943096	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:57882","sslProxy":"127.0.0.1:57882"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645390038777	Marionette	INFO	Stopped listening on port 57896
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileqk8jas"
+1645390025497	Marionette	INFO	Marionette enabled
+1645390028982	geckodriver	INFO	Listening on 127.0.0.1:58275
+1645390032019	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileEZ6Y58"
+1645390032382	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileEZ6Y58\\search.json.mozlz4", (void 0)))
+1645390035319	Marionette	INFO	Listening on port 58300
+1645390035761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645390035768	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:58274","sslProxy":"127.0.0.1:58274"}
+out of memory: 0x0000000000100000 bytes requested
+[Parent 24276, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:565
+[GFX1-]: Receive IPC close w[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+ith reason=AbnormalShutdown
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_MapAndNotifyChildCreated) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_AdoptChild) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ProcessUnhandledEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ProcessUnhandledEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ReceiveMouseInputEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=SHMEM_CREATED_MESSAGE) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PTextureConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_SetDisplayList) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_SetFocusTarget) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_FlushRenderingAsync) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+SourceActor threw an exception: Error: Failed to fetch https://www.instagram.com/accounts/emailsignup/. Code 2152398920.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.instagram.com/accounts/emailsignup/. Code 2152398920.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.instagram.com/accounts/emailsignup/. Code 2152398920.
+SourceActor threw an exception: Error: Failed to fetch https://www.instagram.com/static/bundles/es6/ConsumerAsyncCommons.js/c4ca4238a0b9.js. Code 2152398920.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.instagram.com/static/bundles/es6/ConsumerAsyncCommons.js/c4ca4238a0b9.js. Code 2152398920.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.instagram.com/static/bundles/es6/ConsumerAsyncCommons.js/c4ca4238a0b9.js. Code 2152398920.
+SourceActor threw an exception: Error: Failed to fetch https://www.instagram.com/static/bundles/es6/LoginAndSignupPage.js/d392f737c0cc.js. Code 2152398920.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.instagram.com/static/bundles/es6/LoginAndSignupPage.js/d392f737c0cc.js. Code 2152398920.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.instagram.com/static/bundles/es6/LoginAndSignupPage.js/d392f737c0cc.js. Code 2152398920.
+console.log: "RemoteSettingsWorker error: AbortError: The operation was aborted. "
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: security-state/intermediates list() IndexedDB:  execute() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645390648670	Marionette	INFO	Stopped listening on port 58300
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ignored for this session
+1645390446957	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:59426","sslProxy":"127.0.0.1:59426"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+out of memory: 0x0000000000000468 bytes requested
+Exiting due to channel error.
+Exiting due to channel error.
+1645390481848	geckodriver	INFO	Listening on 127.0.0.1:59689
+1645390484864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileiAcu1Q"
+1645390485201	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileiAcu1Q\\search.json.mozlz4", (void 0)))
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PIdleScheduler::Reply_RequestGC) Channel error: cannot send/recv
+
+[Parent 12652, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 12652, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 12652, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1645390488170	Marionette	INFO	Listening on port 59705
+1645390488557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645390488562	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:59688","sslProxy":"127.0.0.1:59688"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.whatismyip.org/my-ip-address, line 119: ReferenceError: google is not defined
+out of memory: 0x0000000000100000 bytes requested
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.whatismyip.org, line 1: GVLError: e is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.whatismyip.org, line 1: EncodingError: Unable to encode TCModel tcModel.gvl.readyPromise is not resolved
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[[GFX1GFX1-]: Receive IPC close with re-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+ason=AbnormalShutdown
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645390548664	Marionette	INFO	Stopped listening on port 59705
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645390552084	geckodriver	INFO	Listening on 127.0.0.1:60064
+1645390555100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilekkEmX5"
+1645390555483	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilekkEmX5\\search.json.mozlz4", (void 0)))
+1645390558198	Marionette	INFO	Listening on port 60075
+1645390558286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645390558290	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:60063","sslProxy":"127.0.0.1:60063"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 27204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1645390585247	Marionette	INFO	Stopped listening on port 60075
+[Parent 27204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645390598038	geckodriver	INFO	Listening on 127.0.0.1:60307
+1645390601046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileDYdO7K"
+1645390601364	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofileDYdO7K\\search.json.mozlz4", (void 0)))
+1645390603934	Marionette	INFO	Listening on port 60322
+1645390604241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645390604245	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:60306","sslProxy":"127.0.0.1:60306"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x8007000e
+[GFX1-]: Fallback WR to SW-WR + D3D11
+out of memory: 0x0000000000100000 bytes requested
+Hit MOZ_CRASH([unhandlable oom] InputName::isEqualTo) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1234
+#01: soundtouch::SoundTouch::operator=[C:\Program Files\Mozilla Firefox\xul.dll +0x45274fa]
+#02: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x12bc419]
+#03: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x12be256]
+#04: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1e5d601]
+#05: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1ddb790]
+#06: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1ddc52b]
+#07: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1ddaaf2]
+#08: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1dec4c2]
+#09: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1ddab10]
+#10: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x14afa30]
+#11: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x14bc0cf]
+#12: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x14abc59]
+#13: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x22f41f]
+#14: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x22f50f]
+#15: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1bded14]
+#16: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x179ae0c]
+#17: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x179d70d]
+#18: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1bde499]
+#19: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x179ae0c]
+#20: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x1749117]
+#21: ??? (???:???)
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 29132, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:565
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ProcessUnhandledEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+1645390629318	Marionette	INFO	Stopped listening on port 60322
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Parent 29132, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645390650951	geckodriver	INFO	Listening on 127.0.0.1:60499
+1645390653972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilezUohrX"
+1645390654389	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luans\\AppData\\Local\\Temp\\rust_mozprofilezUohrX\\search.json.mozlz4", (void 0)))
+1645390656915	Marionette	INFO	Listening on port 60514
+1645390657157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645390657160	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:60498","sslProxy":"127.0.0.1:60498"}
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 26520, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 26520, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645390991654	Marionette	INFO	Stopped listening on port 60514
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
