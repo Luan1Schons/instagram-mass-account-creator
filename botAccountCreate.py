@@ -95,7 +95,7 @@ while True:
                 options.add_argument("no-sandbox")
                 options.add_experimental_option("excludeSwitches",["ignore-certificate-errors"])
 
-                if(DEBUG.DEBUG_CHROME_HEADLESS == True):
+                if(DEBUG.DEBUG_CHROME_HEADLESS == False):
                         options.add_extension('./assets/chrome_extensions/proxy_auth.zip')
 
                 driver = webdriver.Chrome(executable_path=r"./"+CONFIGURATIONS.CHROME_EXECUTABLE_DRIVER, seleniumwire_options=options_proxy, options=options)
