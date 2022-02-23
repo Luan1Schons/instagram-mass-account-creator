@@ -15,13 +15,16 @@ import accountInfoGenerator as account
 import argparse
 import requests
 import os
+import urllib
+import json
 import createExtensionChrome as ChromeExtension
 
 # Security
 if(DEBUG.DEBUG == False):
-        sleep(60)
+        sleep(10)
 
 while True:
+
 
         # Config Proxy
         options_proxy = {
@@ -31,6 +34,25 @@ while True:
                         'no_proxy': PROXY_INFO.NO_PROXY
                 }
         }
+
+        try:
+                # Set Geolocation
+                location_details = {}
+                proxy_support = urllib.request.ProxyHandler({'http': PROXY_INFO.HTTP, 'https': PROXY_INFO.HTTPS})
+                opener = urllib.request.build_opener(proxy_support)
+                urllib.request.install_opener(opener)
+
+                with urllib.request.urlopen("https://geolocation-db.com/json") as response:
+                        dataGeolocation = json.loads(response.read())
+                        location_details = {
+                                "latitude": dataGeolocation['latitude'],
+                                "longitude": dataGeolocation['longitude'],
+                                "accuracy": 100
+                        }
+
+                        print(Fore.BLUE + "Geolocalização: \n"+ str(dataGeolocation))
+        except Exception as e:
+                print(Fore.RED + "Não foi possível obter a geolocalização.")
 
         # running the browser
         parser = argparse.ArgumentParser()
@@ -64,18 +86,25 @@ while True:
                 executable_path = "./chromedriver.exe"
                 os.environ["webdriver.chrome.driver"] = executable_path
                 options = ChromeOptions()
+
                 options.headless = DEBUG.DEBUG_CHROME_HEADLESS
                 options.add_argument(f'user-agent={userAgent}')
-                options.add_argument("--disable-gpu")
-                options.add_argument("--disable-dev-shm-usage")
-                options.add_argument("--no-sandbox")
+                options.add_argument("disable-gpu")
+                options.add_argument("disable-dev-shm-usage")
+                options.add_argument('disable-infobars')
+                options.add_argument("no-sandbox")
+                options.add_experimental_option("excludeSwitches",["ignore-certificate-errors"])
                 options.add_extension('./assets/chrome_extensions/proxy_auth.zip')
+
                 driver = webdriver.Chrome(executable_path=r"./chromedriver.exe", seleniumwire_options=options_proxy, options=options)
+                location_key = "Emulation.setGeolocationOverride"
+
+                driver.execute_cdp_cmd(location_key, location_details, )
 
         # DEBUG get proxy use confirmation
         if(DEBUG.DEBUG == True):
                 driver.get('https://www.whatismyip.org/my-ip-address')
-                sleep(1)
+                sleep(30)
 
                 # accepting cookies window
                 try:
@@ -142,11 +171,11 @@ while True:
 
         # Fill password value
 
-        passwd = account.generatePassword()
+        passwd = "alterar123@"
         password_field = driver.find_element_by_name('password')
         password_field.send_keys(passwd)  # You can determine another password here.
 
-        sleep(1)
+        sleep(10)
         try:
                 driver.find_element_by_xpath("/html/body/div[1]/section/main/div/div/div[1]/div/form/div[7]/div/button[1]").click()
         except: exit()
