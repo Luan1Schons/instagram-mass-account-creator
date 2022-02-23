@@ -5,6 +5,7 @@ geckodriver.log
 chromedriver.exe
 chromedriver.exe
 confs/debug.py
-confs/proxy-sample.py
+confs/proxy.py
+confs/configurations.py
 .idea
 venv

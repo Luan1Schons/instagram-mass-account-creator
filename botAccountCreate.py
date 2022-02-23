@@ -11,6 +11,7 @@ from time import sleep
 from fake_useragent import UserAgent
 from confs.proxy import PROXY_INFO
 from confs.debug import DEBUG
+from confs.configurations import CONFIGURATIONS
 import accountInfoGenerator as account
 import argparse
 import requests
@@ -70,7 +71,7 @@ while True:
                 options.headless = DEBUG.DEBUG_FIREFOX_HEADLESS
                 profile = webdriver.FirefoxProfile()
                 profile.set_preference("general.useragent.override", userAgent)
-                driver = webdriver.Firefox(executable_path=r"./geckodriver.exe", seleniumwire_options=options_proxy, options=options)
+                driver = webdriver.Firefox(executable_path=r"./"+CONFIGURATIONS.FIREFOX_EXECUTABLE_DRIVER, seleniumwire_options=options_proxy, options=options)
 
         # for firefox driver :
         if args.chrome:
@@ -83,8 +84,7 @@ while True:
                         print(e)
                         exit()
 
-                executable_path = "./chromedriver.exe"
-                os.environ["webdriver.chrome.driver"] = executable_path
+                os.environ["webdriver.chrome.driver"] = CONFIGURATIONS.CHROME_EXECUTABLE_DRIVER
                 options = ChromeOptions()
 
                 options.headless = DEBUG.DEBUG_CHROME_HEADLESS
@@ -94,9 +94,11 @@ while True:
                 options.add_argument('disable-infobars')
                 options.add_argument("no-sandbox")
                 options.add_experimental_option("excludeSwitches",["ignore-certificate-errors"])
-                options.add_extension('./assets/chrome_extensions/proxy_auth.zip')
 
-                driver = webdriver.Chrome(executable_path=r"./chromedriver.exe", seleniumwire_options=options_proxy, options=options)
+                if(DEBUG.DEBUG_CHROME_HEADLESS == True):
+                        options.add_extension('./assets/chrome_extensions/proxy_auth.zip')
+
+                driver = webdriver.Chrome(executable_path=r"./"+CONFIGURATIONS.CHROME_EXECUTABLE_DRIVER, seleniumwire_options=options_proxy, options=options)
                 location_key = "Emulation.setGeolocationOverride"
 
                 driver.execute_cdp_cmd(location_key, location_details, )
