@@ -2,3 +2,9 @@ accounts.txt
 geckodriver
 geckodriver.exe
 geckodriver.log
+chromedriver.exe
+chromedriver.exe
+confs/debug.py
+confs/proxy-sample.py
+.idea
+venv
